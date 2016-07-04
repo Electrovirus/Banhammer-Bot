@@ -3,7 +3,7 @@ do
 function run(msg, matches)
 
 if matches[1] == 'share' then
-send_contact(get_receiver(msg), "+639380189084", "ѕвѕѕ", "tesla👊", ok_cb, false)
+send_contact(get_receiver(msg), "+639380189084","BanHammer🔨", ok_cb, false)
 end
 end
 return {
