@@ -1,5 +1,4 @@
 do
-local AmirSbss = 122774063
 
 local function setrank(msg, name, value) -- setrank function
   local hash = nil
@@ -26,9 +25,8 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
 	local hash = 'rank:'..extra.chat2..':variables'
 	local value = redis:hget(hash, result.id)
     if not value then
-	 if result.id == tonumber(AmirSbss) then
-	   text = text..'Rank : Amir Sbss \n\n'
-	  elseif is_admin2(result.id) then
+	 
+	  if is_admin2(result.id) then
 	   text = text..'Rank : Admin \n\n'
 	  elseif is_owner2(result.id, extra.chat2) then
 	   text = text..'Rank : Owner \n\n'
