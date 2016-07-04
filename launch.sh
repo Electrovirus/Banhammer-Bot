@@ -113,3 +113,4 @@ else
   while true; do
 rm -r ../.telegram-cli/state
   
+fi
