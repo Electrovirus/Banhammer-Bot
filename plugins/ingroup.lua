@@ -386,7 +386,7 @@ end
 
 local function unlock_group_english(msg, data, target)
   if not is_momod(msg) then
-    return "قفط مدیران❗️"
+    return "فقط مدیران❗️"
   end
   local group_english_lock = data[tostring(target)]['settings']['lock_english']
   if group_english_lock == 'no' then
@@ -478,7 +478,7 @@ local function unlock_group_english(msg, data, target)
   else
     data[tostring(target)]['settings']['lock_english'] = 'no'
     save_data(_config.moderation.data, data)
-    return 'اینگلیسی آژاد شد✅🔓'
+    return 'اینگلیسی آزاد شد✅🔓'
   end
 end
 
