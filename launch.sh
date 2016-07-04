@@ -111,8 +111,5 @@ else
     exit 1
   fi
   while true; do
+rm -r ../.telegram-cli/state
   
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/sbssbot.lua -l 1 -E $@
-   sleep 3
-  done
-fi
