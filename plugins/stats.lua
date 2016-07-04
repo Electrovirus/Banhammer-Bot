@@ -150,7 +150,6 @@ return {
     "^[!/#](statslist)$",
     "^[!/#](stats) (group) (%d+)",
     "^[!/#](stats) (sbss)",
-	"^[!/#]([Ss]bss)$"
     }, 
   run = run
 }
