@@ -1,7 +1,7 @@
 #BanHammer
 ##An Advanced Adminastortion bot based on teleseed
-﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
-Fa language is available 
-For normal groups only
+#﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+##Fa language is available 
+##For normal groups only
 
-Edited by Electrovirus
+#Edited by Electrovirus
